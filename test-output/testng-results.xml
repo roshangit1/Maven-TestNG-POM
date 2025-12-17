@@ -1,100 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-17T00:14:22 MST" name="Automation Practice Suite" finished-at="2025-12-17T00:14:40 MST" duration-ms="17916">
+  <suite started-at="2025-12-17T00:29:50 MST" name="Default suite" finished-at="2025-12-17T00:29:56 MST" duration-ms="6054">
     <groups>
     </groups>
-    <test started-at="2025-12-17T00:14:22 MST" name="UI Tests" finished-at="2025-12-17T00:14:40 MST" duration-ms="17916">
+    <test started-at="2025-12-17T00:29:50 MST" name="Default test" finished-at="2025-12-17T00:29:56 MST" duration-ms="6054">
       <class name="tests.AutomationPracticeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AutomationPracticeTest@1b1473ab]" started-at="2025-12-17T00:14:22 MST" name="setUp" finished-at="2025-12-17T00:14:26 MST" duration-ms="4573" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AutomationPracticeTest@6f96c77]" started-at="2025-12-17T00:29:50 MST" name="setUp" finished-at="2025-12-17T00:29:55 MST" duration-ms="5626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="alertTest()[pri:0, instance:tests.AutomationPracticeTest@1b1473ab]" started-at="2025-12-17T00:14:26 MST" name="alertTest" finished-at="2025-12-17T00:14:27 MST" duration-ms="302" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Alert text validated expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Alert text validated expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at tests.AutomationPracticeTest.alertTest(AutomationPracticeTest.java:38)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="alertTest()[pri:0, instance:tests.AutomationPracticeTest@6f96c77]" started-at="2025-12-17T00:29:55 MST" name="alertTest" finished-at="2025-12-17T00:29:56 MST" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AutomationPracticeTest@1b1473ab]" started-at="2025-12-17T00:14:27 MST" name="tearDown" finished-at="2025-12-17T00:14:27 MST" duration-ms="190" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AutomationPracticeTest@1b1473ab]" started-at="2025-12-17T00:14:27 MST" name="setUp" finished-at="2025-12-17T00:14:30 MST" duration-ms="3558" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="checkboxTest()[pri:0, instance:tests.AutomationPracticeTest@1b1473ab]" started-at="2025-12-17T00:14:30 MST" name="checkboxTest" finished-at="2025-12-17T00:14:30 MST" duration-ms="199" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkboxTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AutomationPracticeTest@1b1473ab]" started-at="2025-12-17T00:14:30 MST" name="tearDown" finished-at="2025-12-17T00:14:31 MST" duration-ms="162" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AutomationPracticeTest@1b1473ab]" started-at="2025-12-17T00:14:31 MST" name="setUp" finished-at="2025-12-17T00:14:35 MST" duration-ms="4546" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="dropdownTest()[pri:0, instance:tests.AutomationPracticeTest@1b1473ab]" started-at="2025-12-17T00:14:35 MST" name="dropdownTest" finished-at="2025-12-17T00:14:35 MST" duration-ms="202" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dropdownTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AutomationPracticeTest@1b1473ab]" started-at="2025-12-17T00:14:35 MST" name="tearDown" finished-at="2025-12-17T00:14:36 MST" duration-ms="157" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AutomationPracticeTest@1b1473ab]" started-at="2025-12-17T00:14:36 MST" name="setUp" finished-at="2025-12-17T00:14:39 MST" duration-ms="3596" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="radioButtonTest()[pri:0, instance:tests.AutomationPracticeTest@1b1473ab]" started-at="2025-12-17T00:14:39 MST" name="radioButtonTest" finished-at="2025-12-17T00:14:39 MST" duration-ms="226" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- radioButtonTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AutomationPracticeTest@1b1473ab]" started-at="2025-12-17T00:14:39 MST" name="tearDown" finished-at="2025-12-17T00:14:40 MST" duration-ms="159" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AutomationPracticeTest@6f96c77]" started-at="2025-12-17T00:29:56 MST" name="tearDown" finished-at="2025-12-17T00:29:56 MST" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.AutomationPracticeTest -->
-    </test> <!-- UI Tests -->
-  </suite> <!-- Automation Practice Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

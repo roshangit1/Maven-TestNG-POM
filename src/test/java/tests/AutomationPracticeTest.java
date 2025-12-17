@@ -34,7 +34,8 @@ public class AutomationPracticeTest extends BaseTest {
     public void alertTest() {
         AutomationPracticePage page = new AutomationPracticePage(driver, wait);
         page.clickAlert();
-        String alertText = page.acceptAlertAndGetText();
-        Assert.assertTrue(alertText.contains("Rahul Shetty"), "Alert text validated");
+        String alertText = page.acceptAlertAndGetText(); 	
+        //System.out.print("Alert Text = "+ alertText);
+        Assert.assertTrue(alertText.contains("Hello , share this practice page and share your knowledge"), "Alert text validated");
     }
 }
