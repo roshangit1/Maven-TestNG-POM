@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-17T00:29:50 MST" name="Default suite" finished-at="2025-12-17T00:29:56 MST" duration-ms="6054">
+  <suite started-at="2025-12-17T00:43:31 MST" name="Automation Practice Suite" finished-at="2025-12-17T00:43:47 MST" duration-ms="15833">
     <groups>
     </groups>
-    <test started-at="2025-12-17T00:29:50 MST" name="Default test" finished-at="2025-12-17T00:29:56 MST" duration-ms="6054">
+    <test started-at="2025-12-17T00:43:31 MST" name="UI Tests" finished-at="2025-12-17T00:43:47 MST" duration-ms="15833">
       <class name="tests.AutomationPracticeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AutomationPracticeTest@6f96c77]" started-at="2025-12-17T00:29:50 MST" name="setUp" finished-at="2025-12-17T00:29:55 MST" duration-ms="5626" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AutomationPracticeTest@1622f1b]" started-at="2025-12-17T00:43:31 MST" name="setUp" finished-at="2025-12-17T00:43:34 MST" duration-ms="3071" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="alertTest()[pri:0, instance:tests.AutomationPracticeTest@6f96c77]" started-at="2025-12-17T00:29:55 MST" name="alertTest" finished-at="2025-12-17T00:29:56 MST" duration-ms="228" status="PASS">
+        <test-method signature="alertTest()[pri:0, instance:tests.AutomationPracticeTest@1622f1b]" started-at="2025-12-17T00:43:34 MST" name="alertTest" finished-at="2025-12-17T00:43:36 MST" duration-ms="1817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AutomationPracticeTest@6f96c77]" started-at="2025-12-17T00:29:56 MST" name="tearDown" finished-at="2025-12-17T00:29:56 MST" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AutomationPracticeTest@1622f1b]" started-at="2025-12-17T00:43:36 MST" name="tearDown" finished-at="2025-12-17T00:43:36 MST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AutomationPracticeTest@1622f1b]" started-at="2025-12-17T00:43:36 MST" name="setUp" finished-at="2025-12-17T00:43:39 MST" duration-ms="3407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkboxTest()[pri:0, instance:tests.AutomationPracticeTest@1622f1b]" started-at="2025-12-17T00:43:39 MST" name="checkboxTest" finished-at="2025-12-17T00:43:39 MST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkboxTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AutomationPracticeTest@1622f1b]" started-at="2025-12-17T00:43:39 MST" name="tearDown" finished-at="2025-12-17T00:43:39 MST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AutomationPracticeTest@1622f1b]" started-at="2025-12-17T00:43:39 MST" name="setUp" finished-at="2025-12-17T00:43:43 MST" duration-ms="3371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dropdownTest()[pri:0, instance:tests.AutomationPracticeTest@1622f1b]" started-at="2025-12-17T00:43:43 MST" name="dropdownTest" finished-at="2025-12-17T00:43:43 MST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AutomationPracticeTest@1622f1b]" started-at="2025-12-17T00:43:43 MST" name="tearDown" finished-at="2025-12-17T00:43:43 MST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AutomationPracticeTest@1622f1b]" started-at="2025-12-17T00:43:43 MST" name="setUp" finished-at="2025-12-17T00:43:46 MST" duration-ms="3293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="radioButtonTest()[pri:0, instance:tests.AutomationPracticeTest@1622f1b]" started-at="2025-12-17T00:43:46 MST" name="radioButtonTest" finished-at="2025-12-17T00:43:46 MST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radioButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AutomationPracticeTest@1622f1b]" started-at="2025-12-17T00:43:46 MST" name="tearDown" finished-at="2025-12-17T00:43:47 MST" duration-ms="110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.AutomationPracticeTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- UI Tests -->
+  </suite> <!-- Automation Practice Suite -->
 </testng-results>
