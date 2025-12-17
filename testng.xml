@@ -1,0 +1,8 @@
+
+<suite name="Automation Practice Suite">
+    <test name="UI Tests">
+        <classes>
+            <class name="tests.AutomationPracticeTest"/>
+        </classes>
+    </test>
+</suite>
